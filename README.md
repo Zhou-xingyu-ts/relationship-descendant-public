@@ -67,6 +67,16 @@
 
 ---
 
+## 30 秒预览
+
+![后裔.skill demo](./assets/demo-flow.gif)
+
+上面这段 GIF 展示的是最推荐的路径：
+
+`关系材料 -> 媒体抽取 / 证据包 -> 第三人格输出`
+
+---
+
 ## 为什么它不像普通的人格蒸馏
 
 普通人格蒸馏，蒸的是一个人。  
@@ -218,23 +228,6 @@ python3 ./scripts/smoke-test.py --check-media
 - `scripts/`
   - 安装脚本和 smoke test
 - `assets/`
-  - banner、social card、cover tile
+  - banner、social preview、demo GIF
 - `demo-*.md`
   - 演示输入和输出
-
----
-
-## 视觉素材
-
-如果你要发 GitHub、发群、发动态，已经配好：
-
-- [banner.svg](./assets/banner.svg)
-- [social-card.svg](./assets/social-card.svg)
-- [cover-tile.svg](./assets/cover-tile.svg)
-
----
-
-## 最后一句
-
-别人蒸一个人。  
-后裔.skill 先把你们的“孩子”聊出来。
