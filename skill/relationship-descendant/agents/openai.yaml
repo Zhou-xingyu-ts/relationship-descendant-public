@@ -1,0 +1,3 @@
+display_name: 后裔.skill
+short_description: 把两个人的聊天、语气和关系氛围做成一个创作型同龄第三人格，并可扩展为变体、场景和会话人格。
+default_prompt: 根据两个人的聊天、语音摘要、图片描述和关系线索，生成一个创作型的同龄第三人格。默认先给 portrait，并在合适时扩展为 blend-lab、future-snapshot、session-voice 或 preset-save。始终保持 fictional、same-age、non-predictive 的边界。

@@ -1,0 +1,90 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/home/your-user/.openclaw/workspaces/life",
+      "model": {
+        "primary": "your-provider/your-chat-model"
+      }
+    },
+    "list": [
+      {
+        "id": "life",
+        "default": true,
+        "workspace": "/home/your-user/.openclaw/workspaces/life",
+        "skills": [
+          "delegate-to-coder",
+          "relationship-descendant"
+        ],
+        "tools": {
+          "profile": "coding",
+          "deny": [
+            "exec",
+            "process"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "coder"
+          ],
+          "requireAgentId": true
+        }
+      },
+      {
+        "id": "coder",
+        "workspace": "/home/your-user/.openclaw/workspaces/coder",
+        "skills": [
+          "relationship-descendant"
+        ],
+        "tools": {
+          "profile": "coding"
+        },
+        "model": {
+          "primary": "your-provider/your-coding-model"
+        }
+      }
+    ]
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "your-provider": {
+        "baseUrl": "https://your-api-base/v1",
+        "api": "openai-completions",
+        "apiKey": "YOUR_API_KEY_ENV_NAME",
+        "models": [
+          {
+            "id": "your-chat-model",
+            "name": "your-chat-model",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "your-coding-model",
+            "name": "your-coding-model",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  }

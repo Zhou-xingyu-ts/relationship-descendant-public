@@ -1,0 +1,18 @@
+# Local editor files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary archives
+*.zip
+
+# Generated media artifacts
+media-evidence-bundle.json
+transcripts/
+frames/
+audio/
+output/
+tmp/

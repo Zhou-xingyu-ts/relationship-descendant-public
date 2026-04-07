@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1080" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10131B"/>
+      <stop offset="1" stop-color="#0A0D14"/>
+    </linearGradient>
+    <linearGradient id="line" x1="116" y1="0" x2="1084" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2C3347" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#48536F"/>
+      <stop offset="1" stop-color="#2C3347" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="118" y="92" width="964" height="2" fill="url(#line)"/>
+  <rect x="118" y="536" width="964" height="2" fill="url(#line)"/>
+
+  <text x="600" y="180" text-anchor="middle" fill="#F6F8FD" font-size="64" font-weight="700" font-family="Georgia, 'Times New Roman', serif">后裔.skill</text>
+  <text x="600" y="252" text-anchor="middle" fill="#E0E7F5" font-size="30" font-weight="700" font-family="'Microsoft YaHei', Arial, sans-serif">不是生孩子，是先把他聊出来。</text>
+  <text x="600" y="296" text-anchor="middle" fill="#E0E7F5" font-size="24" font-weight="600" font-family="'Microsoft YaHei', Arial, sans-serif">如果你们真的有一个孩子，他会怎么和你说话？</text>
+
+  <g transform="translate(296 344)">
+    <rect width="112" height="30" rx="8" fill="#2D8BFF"/>
+    <text x="56" y="20" text-anchor="middle" fill="#F6FAFF" font-size="17" font-weight="700" font-family="Arial, sans-serif">OpenClaw</text>
+  </g>
+  <g transform="translate(424 344)">
+    <rect width="118" height="30" rx="8" fill="#8D52FF"/>
+    <text x="59" y="20" text-anchor="middle" fill="#FAF6FF" font-size="17" font-weight="700" font-family="Arial, sans-serif">AgentSkill</text>
+  </g>
+  <g transform="translate(558 344)">
+    <rect width="142" height="30" rx="8" fill="#424C66"/>
+    <text x="71" y="20" text-anchor="middle" fill="#EEF2FB" font-size="17" font-weight="700" font-family="Arial, sans-serif">Same-Age</text>
+  </g>
+  <g transform="translate(716 344)">
+    <rect width="188" height="30" rx="8" fill="#F28A58"/>
+    <text x="94" y="20" text-anchor="middle" fill="#181410" font-size="17" font-weight="700" font-family="Arial, sans-serif">Creative Only</text>
+  </g>
+
+  <text x="600" y="430" text-anchor="middle" fill="#F5F7FC" font-size="32" font-weight="700" font-family="'Microsoft YaHei', Arial, sans-serif">别人蒸一个人，我们想蒸你们的后裔感人格。</text>
+  <text x="600" y="476" text-anchor="middle" fill="#C9D3E6" font-size="22" font-family="'Microsoft YaHei', Arial, sans-serif">用聊天、语气和关系氛围，长出一个能长期聊天的第三个人。</text>
+</svg>

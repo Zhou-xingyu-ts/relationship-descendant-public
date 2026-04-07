@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "mode": "portrait | blend-lab | future-snapshot | session-voice | preset-save",
+    "preset_name": "string",
+    "same_age_framing": true,
+    "weighting": {
+      "source_a": "0-100",
+      "source_b": "0-100"
+    },
+    "modalities_used": ["chat", "voice", "image", "manual"]
+  },
+  "parent_style_cards": [
+    {
+      "label": "A or B",
+      "evidence_sources": ["chat", "voice", "image", "manual"],
+      "warmth": "1-10",
+      "directness": "1-10",
+      "humor": "1-10",
+      "internetness": "1-10",
+      "emotional_expressiveness": "1-10",
+      "patience": "1-10",
+      "playfulness": "1-10",
+      "social_energy": "1-10",
+      "abstraction": "1-10",
+      "meme_density": "1-10",
+      "conflict_style": "string",
+      "affection_style": "string",
+      "language_texture": "string",
+      "recurring_signals": ["string"],
+      "caveats": ["string"]
+    }
+  ],
+  "successor_persona": {
+    "summary": "string",
+    "shared_inheritance": ["string"],
+    "inherited_from_a": ["string"],
+    "inherited_from_b": ["string"],
+    "novel_traits": ["string"],
+    "softened_traits": ["string"],
+    "voice_style": ["string"],
+    "best_use_cases": ["string"],
+    "disclaimer": "string"
+  },
+  "variant_pack": [
+    {
+      "name": "string",
+      "weighting_label": "A-heavy | balanced | B-heavy | custom",
+      "core_vibe": "string",
+      "speaking_feel": "string",
+      "best_use": "string"
+    }
+  ],
+  "session_voice": {
+    "role": "string",
+    "core_vibe": "string",
+    "speech_rules": ["string"],
+    "soft_boundaries": ["string"],
+    "starter_line": "string"
+  },
+  "future_snapshot": [
+    {
+      "title": "string",
+      "context": "string",
+      "demonstrated_traits": ["string"]
+    }
+  ]
+}

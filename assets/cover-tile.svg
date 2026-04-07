@@ -1,0 +1,52 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="108" y1="44" x2="968" y2="1034" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10131B"/>
+      <stop offset="1" stop-color="#0A0D14"/>
+    </linearGradient>
+    <linearGradient id="line" x1="100" y1="0" x2="980" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2C3347" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#48536F"/>
+      <stop offset="1" stop-color="#2C3347" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accentA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F27A54"/>
+      <stop offset="1" stop-color="#FDB367"/>
+    </linearGradient>
+    <linearGradient id="accentB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6B8DFF"/>
+      <stop offset="1" stop-color="#6FD3FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="100" y="132" width="880" height="2" fill="url(#line)"/>
+  <rect x="100" y="938" width="880" height="2" fill="url(#line)"/>
+
+  <text x="540" y="280" text-anchor="middle" fill="#F6F8FD" font-size="86" font-weight="700" font-family="Georgia, 'Times New Roman', serif">后裔.skill</text>
+  <text x="540" y="378" text-anchor="middle" fill="#DFE6F4" font-size="32" font-weight="600" font-family="'Microsoft YaHei', Arial, sans-serif">把关系做成人格</text>
+  <text x="540" y="428" text-anchor="middle" fill="#DFE6F4" font-size="32" font-weight="600" font-family="'Microsoft YaHei', Arial, sans-serif">把互动长成第三个声音</text>
+
+  <g transform="translate(302 500)">
+    <rect width="112" height="30" rx="8" fill="#2D8BFF"/>
+    <text x="56" y="20" text-anchor="middle" fill="#F6FAFF" font-size="17" font-weight="700" font-family="Arial, sans-serif">OpenClaw</text>
+  </g>
+  <g transform="translate(430 500)">
+    <rect width="118" height="30" rx="8" fill="#8D52FF"/>
+    <text x="59" y="20" text-anchor="middle" fill="#FAF6FF" font-size="17" font-weight="700" font-family="Arial, sans-serif">AgentSkill</text>
+  </g>
+  <g transform="translate(564 500)">
+    <rect width="142" height="30" rx="8" fill="#424C66"/>
+    <text x="71" y="20" text-anchor="middle" fill="#EEF2FB" font-size="17" font-weight="700" font-family="Arial, sans-serif">Same-Age</text>
+  </g>
+  <g transform="translate(722 500)">
+    <rect width="154" height="30" rx="8" fill="#F28A58"/>
+    <text x="77" y="20" text-anchor="middle" fill="#181410" font-size="17" font-weight="700" font-family="Arial, sans-serif">Creative</text>
+  </g>
+
+  <circle cx="430" cy="742" r="92" fill="url(#accentA)"/>
+  <circle cx="650" cy="742" r="92" fill="url(#accentB)"/>
+  <circle cx="540" cy="810" r="122" fill="#F0F2F8"/>
+  <circle cx="540" cy="812" r="46" fill="#0D1117"/>
+
+  <text x="540" y="918" text-anchor="middle" fill="#C9D3E6" font-size="24" font-family="'Microsoft YaHei', Arial, sans-serif">fictional same-age successor persona</text>
+</svg>

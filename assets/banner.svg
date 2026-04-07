@@ -1,0 +1,69 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="60" x2="1400" y2="1020" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10131B"/>
+      <stop offset="1" stop-color="#0A0D14"/>
+    </linearGradient>
+    <linearGradient id="line" x1="200" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#232838" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3A425B"/>
+      <stop offset="1" stop-color="#232838" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accentA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F27B54"/>
+      <stop offset="1" stop-color="#FFB36B"/>
+    </linearGradient>
+    <linearGradient id="accentB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6D8CFF"/>
+      <stop offset="1" stop-color="#6ED3FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <circle cx="314" cy="194" r="3" fill="#B7C1D8" opacity="0.42"/>
+  <circle cx="1328" cy="166" r="2" fill="#B7C1D8" opacity="0.38"/>
+  <circle cx="1412" cy="930" r="3" fill="#B7C1D8" opacity="0.3"/>
+  <circle cx="254" cy="980" r="2" fill="#B7C1D8" opacity="0.28"/>
+
+  <rect x="182" y="154" width="1236" height="2" fill="url(#line)"/>
+  <rect x="182" y="922" width="1236" height="2" fill="url(#line)"/>
+
+  <text x="800" y="286" text-anchor="middle" fill="#F5F7FB" font-size="88" font-weight="700" font-family="Georgia, 'Times New Roman', serif">后裔.skill</text>
+
+  <text x="800" y="390" text-anchor="middle" fill="#E5EAF4" font-size="40" font-weight="700" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif">不是生孩子，是先把他聊出来。</text>
+  <text x="800" y="456" text-anchor="middle" fill="#E5EAF4" font-size="32" font-weight="600" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif">如果你们真的有一个孩子，他会怎么和你说话？</text>
+
+  <g transform="translate(392 524)">
+    <rect width="118" height="32" rx="8" fill="#8BC34A"/>
+    <text x="59" y="22" text-anchor="middle" fill="#0D1117" font-size="18" font-weight="700" font-family="Arial, sans-serif">License MIT</text>
+  </g>
+  <g transform="translate(524 524)">
+    <rect width="114" height="32" rx="8" fill="#2E8BFF"/>
+    <text x="57" y="22" text-anchor="middle" fill="#F7FAFF" font-size="18" font-weight="700" font-family="Arial, sans-serif">OpenClaw</text>
+  </g>
+  <g transform="translate(652 524)">
+    <rect width="142" height="32" rx="8" fill="#8E52FF"/>
+    <text x="71" y="22" text-anchor="middle" fill="#F8F4FF" font-size="18" font-weight="700" font-family="Arial, sans-serif">AgentSkill</text>
+  </g>
+  <g transform="translate(808 524)">
+    <rect width="162" height="32" rx="8" fill="#3F465A"/>
+    <text x="81" y="22" text-anchor="middle" fill="#EEF2FB" font-size="18" font-weight="700" font-family="Arial, sans-serif">Same-Age</text>
+  </g>
+  <g transform="translate(984 524)">
+    <rect width="224" height="32" rx="8" fill="url(#accentA)"/>
+    <text x="112" y="22" text-anchor="middle" fill="#1A1612" font-size="18" font-weight="700" font-family="Arial, sans-serif">Relationship Derived</text>
+  </g>
+
+  <g transform="translate(695 580)">
+    <rect width="210" height="32" rx="16" fill="#2A3144"/>
+    <text x="105" y="22" text-anchor="middle" fill="#BFC9DD" font-size="17" font-weight="700" font-family="'Microsoft YaHei', Arial, sans-serif">创作型 · 非预测</text>
+  </g>
+
+  <text x="800" y="708" text-anchor="middle" fill="#F5F7FB" font-size="40" font-weight="700" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif">2026 年了，大家都在蒸人格。</text>
+  <text x="800" y="770" text-anchor="middle" fill="#CED6E8" font-size="28" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif">但别人蒸的是一个人。我们想先看看，你们两个人能不能长出第三个人。</text>
+
+  <circle cx="622" cy="852" r="64" fill="url(#accentA)" opacity="0.92"/>
+  <circle cx="978" cy="852" r="64" fill="url(#accentB)" opacity="0.92"/>
+  <circle cx="800" cy="904" r="82" fill="#EDEFF6"/>
+  <circle cx="800" cy="906" r="34" fill="#0D1117"/>
+</svg>

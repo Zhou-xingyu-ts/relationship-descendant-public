@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "ffmpeg": true,
+    "whisper": false
+  },
+  "entries": [
+    {
+      "source": "string",
+      "modality": "image | audio | video | unknown",
+      "usable_artifacts": {
+        "image": "string",
+        "audio": "string",
+        "video": "string",
+        "transcription": {
+          "transcript": "string",
+          "notes": ["string"]
+        },
+        "extracted": {
+          "audio": "string",
+          "frames": ["string"],
+          "notes": ["string"]
+        }
+      },
+      "notes": ["string"]
+    }
+  ],
+  "limitations": ["string"]
+}
